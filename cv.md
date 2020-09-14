@@ -28,7 +28,8 @@ function isPrime(n) {
   }
   
   return true;
-}```
+}
+```
 6.
 7. Education (self-education, HTML and CSS course by [Evgeny Popov](http://samouchitelbox.ru/html-video-popov.html)
 8. English (A2)
