@@ -1,5 +1,3 @@
-####My first CV
-__________________
 1. **Anton Popov**
 
 2. **Discord**:Aleksandrovich(Askorbinka1812)#7110
