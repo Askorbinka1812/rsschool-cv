@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(241, 241, 241);
+    max-width: 900px;
+    margin: 50px auto;
+    font-family: Georgia, 'Times New Roman', Times,sans-serif;
+    background: rgba(180, 180, 180, 0.479);
+    box-shadow: 20px 20px 40px 10px rgba(0,0,0,0.6);
+}
+h1{
+    text-align: center;    
+}
+header{
+display: flex;
+width: 100%;
+height: 200px;
+margin-bottom: 25px;
+margin-top: 10px;
+background: rgba(177, 177, 177, 0.678);
+}
+.photo{
+    width: 200px;
+}
+.photo > img{
+    width: 150px;
+    height: 150px;
+    margin: 25px;
+    border-radius: 10px 100px 30px 50px;
+    object-fit: cover;
+    
+}   
+section{
+    display: block;
+}
+.name-info h1{
+    margin-bottom: 0px;
+    font-size: 40px;
+    color: rgb(61, 61, 61);
+    text-transform: uppercase;
+}
+main {
+display: flex;
+width: calc(100%-40px);
+padding: 20px;
+}
+.col-left{
+    width: 60%;
+    padding-right: 50px;
+}
+article{
+    display: block;
+}
+main h2{
+    width: 100%;
+    text-align: center;
+    color: rgba(77, 80, 83, 0.555);
+    background: rgba(184, 184, 184, 0.541);
+}
+h2 {
+display: block;
+font-size: 1.5em;
+margin-block-start: 0.83em;
+margin-block-end: 0.83em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+a {
+    color: #006699;
+    text-decoration: none;
+
+}
+pre {
+display: block;
+white-space: pre;
+margin: 1em 0px;
+font-size: 20px;
+
+}
+.js-script{
+    color: rgb(36, 36, 36);
+}
+.js-script{
+    display: block;
+    overflow: auto;
+    padding: .5em;
+    color:#303030;
+    margin: -80px 0px 0px 0px;
+}
+.code-violet {
+    color: #b290ab
+}
+.code-blue {
+    color:#85acb4
+}
+.code-orange{
+    color: #d78b49
+}
+.code-red{
+    color:#d55845
+}
+#skills p{
+    display: inline;
+    font-size: 20px;
+    margin: 0px 20px 0px 20px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 30px;
+    margin-inline-end: 0px;
+}
+#about {
+    font-size: 20px;
+    width: 100%;
+    text-align: justify;
+}
+
+.col-right{
+    display: block;
+}
+footer {
+    width: 900px;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+}
+#english{
+    font-size: 20px;
+}
+#Education{
+    font-size: 20px;
+}
+#contacts{
+    font-size: 20px;
+}
+#skills{
+    font-size: 20px;
+}
+#SampleCode{
+    font-size: 20px;
+}
